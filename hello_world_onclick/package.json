@@ -1,15 +1,17 @@
 {
-  "name": "linkstart.js-demos",
+  "name": "back2js-demos",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "linkstart"
+    "dev": "back2js dev",
+    "build": "back2js build",
+    "start": "back2js start"
   },
   "author": "jrichardsz",
   "license": "MIT",
   "dependencies": {
-    "linkstartjs": "file:../../linkstartjs"
+    "back2js": "file:../../back2js-core",
+    "glob": "^11.0.0"
   }
 }

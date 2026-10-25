@@ -12,8 +12,5 @@
   "license": "MIT",
   "dependencies": {
     "linkstartjs": "file:../../linkstartjs"
-  },
-  "localDependencies": {
-    "linkstartjs": "github:linkstartjs/linkstartjs#1.0.0"
   }
 }
